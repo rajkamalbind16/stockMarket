@@ -1,0 +1,58 @@
+.mainConatinerr{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+
+}
+
+.myleft{
+text-align: center;
+}
+
+#inputSelect{
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+
+#myBtnAnalyze{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 3px 10px; 
+    position: absolute;
+    top: 250px;
+    left: 130px;
+}
+
+
+.PayOFFChart{
+
+    height: 350px;
+    width: 450px;
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.Intraday{
+    height: 350px;
+    width: 450px;
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+
+}
+
+
+.myRightDiv{
+    height: 470px;
+    width: 320px;
+    line-height: 2;
+    background-color: rgb(33, 33, 33);
+    padding: 10px 15px;
+}
+
+#myRange{
+font-size: 75px;
+}

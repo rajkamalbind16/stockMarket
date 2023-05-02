@@ -1,0 +1,38 @@
+.mainConatiner{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+}
+
+.leftDivHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+#myChart{
+    height: 180px;
+    width: 200px;
+    margin: 10px 0;
+
+    padding: 5px 10px;
+    border: 2px solid rgb(249, 246, 246);
+}
+#chart{
+    height: 450px;
+    width: 450px;
+    margin: 10px 0;
+
+    padding: 5px 10px;
+}
+
+.basics{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.rightDiv{
+    line-height: 2;
+}

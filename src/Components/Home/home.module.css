@@ -1,0 +1,101 @@
+.myContainer{
+    background-color: rgb(10, 21, 139);
+    color: white;
+}
+.container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   padding-top: 60px;
+   padding-bottom: 60px;
+    font-size: 2rem;
+    row-gap: 10px;
+}
+.btn1{
+    margin-top: 40px;
+    width: 350px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: rgb(18, 18, 212);
+    color: white;
+    border: transparent;
+    font-size: large;
+}
+.para{
+    margin-top: 30px;
+}
+.contain_1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+
+
+.contain{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    font-family: Bodoni MT;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    color: aqua;
+}
+.contain>div{
+    border: 1px solid rgb(42, 234, 94);
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(7, 7, 33);
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    font-family: Bodoni MT;
+    gap: 30px;
+}
+.name>div{
+    border: 1px solid rgb(13, 188, 34);
+    width: 30%;
+    height: 300px;
+    background-color: rgb(30,31,36);
+    color: white;
+    text-align: center;
+}
+
+.name>div>h3{
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(47,48,56);
+}
+.mid{
+    margin-top: 70px;
+}
+.icn{
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+  color: blue;
+}

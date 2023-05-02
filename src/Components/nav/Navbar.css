@@ -1,0 +1,67 @@
+.nav-div{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.nav-div > li{
+    margin-top: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+
+.btnSignin{
+color: black;
+background-color: white;
+padding: 5px 10px;
+margin-top: 10px;
+cursor: pointer;
+
+
+}
+
+.btnGetStarted{
+    color: black;
+    background-color: rgb(9, 67, 241);
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+
+}
+  
+  .dropdown-toggle {
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .dropdown-menu{
+    width: 240px;
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    color: white;
+    background-color: black;
+    font-size: 26px;
+    line-height: 1.6;
+
+  }
+
+  .nav-div > Link{
+text-decoration: none;
+  }
+
+
+  
+  .dropdown-item {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #494747;
+    color: white;
+  }
+  

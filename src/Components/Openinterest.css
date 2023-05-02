@@ -1,0 +1,82 @@
+.OpenInterestMainContainer{
+    display: flex;
+    padding: 5px 25px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+
+.OpenInterestleft{
+color: white;
+margin-right: 25px;
+
+height: 200px;
+width: 300px;
+
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownToggle {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    min-width: 160px;
+    padding: 8px 0;
+    margin: 0;
+    border-radius: 4px;
+    background-color: #070707;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.757);
+  }
+  
+  .dropdown-item1 {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item1:hover {
+    background-color: #2b2a2a;
+    color: white;
+  }
+  
+.mybtnDate{
+    display: flex;
+}
+  #expiry{
+font-size: 20px;
+padding: 2px 5px;
+  }
+  #datea{
+    font-size: 15px;
+    padding: 5px 7px;
+    margin: 5px;
+  }
+
+
+
+
+
+.OpenInterestright{
+width: 100%;
+}
+
+.OpenInterestrightInner{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    color: white;
+    font-size: 25px;
+}

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+  
+    height: 1000px;
+    width: 98%;
+    color: white;
+}
+.left{
+    width: 30%;
+    padding: 20px;
+    height: 100%;
+    
+    text-align: center;
+}
+.right{
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+}
+.blue{
+    color: blue;
+}
+.pink{
+    color: pink;
+}
+
+#mySelect{
+    font-size: 25px;
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+}
